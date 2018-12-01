@@ -1,0 +1,128 @@
+		/*tampilan body*/
+body {
+	background-image: url(../gambar/banking.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: sans-serif;
+	margin: 0px;
+	min-width: 1300px;
+}
+
+/*mengatur tampilan header*/
+div.header {
+	height: 50px;
+	background-color: #2A3D5E;
+}
+
+div.header b{
+	font-size: 15pt;
+	color: white;
+	font-family: century gothic;
+	position: relative;
+	top: 15px;
+	animation: marquee 10s infinite alternate;
+}
+
+/*mengatur tampilan gambar id="dcs" pada header*/
+img#dcs {
+	position: relative;
+}
+
+/*mengatur tampilan gambar id="dc" pada header*/
+img#dc{
+	position: relative;
+	top: 10px;
+	float: right;
+}
+
+/*mengatur tampilan sidebar*/
+div.sidebar{
+	background-color:rgba(0,0,0,0.6);
+	height: 612px;
+	width: 250px;
+	position: relative;
+	left: 100px
+}
+
+/*mengatur posisi gambar di sidebar*/
+div.sidebar img{
+	margin-left: 25px
+}
+
+/*mengatur teks "b" di sidebar*/
+div.sidebar b{
+	font-size: 15pt;
+	color: white;
+	margin-left: 25%;
+	font-family: helvetica
+}
+
+/*mengatur warna hr*/
+.haer{ border-color: #9c9c9c;
+
+}
+
+/*mengatur hr*/
+div.sidebar hr{
+	width: 170px;
+}
+
+/*mengatur teks "p" di sidebar*/
+div.sidebar p{
+	font-size: 10pt;
+	color: #b9c6d2;
+	margin-left: 15px
+}
+
+/*mengatur teks id="LoginAdmin" di sidebar*/
+#LoginAdmin{
+	font-size: 13pt;
+	color: #f9f9f9;
+}
+
+/*mengatur tampilan kolom username dan password*/
+input#nama, input#password {
+	padding: 10px 18px;
+    border: 3px solid #ccc;
+    transition: 0.5s;
+    margin-left: 25px
+}
+
+/*mengatur tampilan tombol submit*/
+input#submit{
+	padding: 5px 13px;
+    border: 3px solid #ccc;
+    margin-left: 45px
+}
+
+/*mengatur tampilan tombol reset*/
+input#reset{
+	padding: 5px 13px;
+    border: 3px solid #ccc;
+    margin-left: 20px
+}
+
+/*tampilan footer*/
+div#footer {
+	height: 155px;
+	background-color: #2A3D5E;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+
+/*mengatur posisi gambar di footer*/
+div#footer img{
+	position: relative;
+	left: 47%
+
+}
+
+/*mengatur posisi dan tampilan teks di footer*/
+div#footer p{
+	color:	#f1f1f1;
+	font-size: 12pt;
+	text-align: center;
+	position: relative;
+	bottom: 11px
+}

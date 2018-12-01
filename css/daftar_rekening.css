@@ -1,0 +1,106 @@
+/*tampilan body*/
+body {
+	background-image: url(../gambar/banking.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: sans-serif;
+	margin: 0px;
+	min-width: 1300px;
+}
+
+/*mengatur tampilan header*/
+div.header {
+	height: 50px;
+	background-color: #2A3D5E;
+}
+
+/*mengatur tampilan gambar id="dcs" pada header*/
+img#dcs {
+	position: relative;
+}
+
+/*mengatur tampilan gambar id="dc" pada header*/
+img#dc{
+	position: relative;
+	float: right;
+}
+/*mengatur tampilan navbar*/
+.menu {
+	padding: 10px;
+	border:1px solid black;
+	background-color: #ccc;
+	margin-top:0 auto;
+}
+/*mengatur tampilan kotak navbar*/
+.menu ul {
+	list-style:none;
+	margin-left:25%;
+}
+/*mengatur tampilan teks navbar pada header*/
+.menu a{
+	text-decoration:none;
+	color:#F5F5F5;
+	font-weight:bold;
+	margin-left:50px;
+	margin-right:50px;
+	font-size: 20px;
+}
+/*mengatur tampilan kotak navgar pada header*/
+.menu li{
+	display:inline;
+	background-color:#003399;
+	padding:20px;
+	border-right:solid 1px;
+}
+/*mengatur tampilan kotak navgar ketika diarahkan pada header*/
+.menu li:hover{
+background-color:#FF7F50;
+}
+
+.content {
+padding: 10%;
+margin-left: 232px;
+margin-right: 232px;
+border:1px solid white;
+background-color:rgba(0,0,0,0.6);
+height:529px;
+}
+.content h1{
+font-family:Arial;
+color: white;
+font-size:18pt;
+font-weight:bold;
+text-align:center;
+}
+
+.content p{
+font-family:Century gothic;
+color: white;
+font-size:10pt;
+font-weight:bold;
+/* text-align:center; */
+}
+
+/*tampilan footer*/
+div#footer {
+	height: 155px;
+	background-color: #2A3D5E;
+	position: absolute;
+	width: 100%;
+}
+
+/*mengatur posisi gambar di footer*/
+div#footer img{
+	position: relative;
+	left: 47%
+
+}
+
+/*mengatur posisi dan tampilan teks di footer*/
+div#footer p{
+	color:	#f1f1f1;
+	font-size: 12pt;
+	text-align: center;
+	position: relative;
+	bottom: 11px
+}

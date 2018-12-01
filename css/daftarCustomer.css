@@ -1,0 +1,135 @@
+/*tampilan body*/
+body {
+	background-image: url(../gambar/banking.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: sans-serif;
+	margin: 0px;
+	min-width: 1300px;
+}
+
+/*mengatur tampilan header*/
+div.header {
+	height: 50px;
+	background-color: #2A3D5E;
+}
+
+/*mengatur tampilan gambar id="dcs" pada header*/
+img#dcs {
+	position: relative;
+}
+
+/*mengatur tampilan gambar id="dc" pada header*/
+img#dc{
+	position: relative;
+	float: right;
+}
+/*mengatur tampilan navbar*/
+.menu {
+	padding: 10px;
+	border:1px solid black;
+	background-color: #ccc;
+}
+/*mengatur tampilan kotak navbar*/
+.menu ul {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+/*mengatur tampilan teks navbar pada header*/
+.menu a{
+	text-decoration:none;
+	color:#F5F5F5;
+	text-align: center;
+	font-weight:bold;
+	margin-left:50px;
+	margin-right:50px;
+	font-size: 20px;
+}
+/*mengatur tampilan kotak navbar pada header*/
+.menu li{
+	display: inline;
+	text-align: center;
+	background-color:#003399;
+	padding:14px 16px;
+	border-right:solid 1px;
+	text-decoration: none;
+}
+
+.active{
+	background-color: #4CAF50:
+}
+
+/*mengatur tampilan kotak navgar ketika diarahkan pada header*/
+.menu li:hover{
+background-color:#FF7F50;
+}
+
+.content {
+padding: 10%;
+margin-left: 232px;
+margin-right: 232px;
+border:1px solid white;
+background-color:rgba(0,0,0,0.6);
+height:529px;
+}
+.content h1{
+font-family:Arial;
+color: white;
+font-size:18pt;
+font-weight:bold;
+text-align:center;
+}
+
+.content p{
+font-family:Century gothic;
+color: white;
+font-size:10pt;
+font-weight:bold;
+text-align:center;
+}
+
+/*tampilan footer*/
+div#footer {
+	height: 155px;
+	background-color: #2A3D5E;
+}
+
+/*mengatur posisi gambar di footer*/
+div#footer img{
+	position: relative;
+	left: 47%
+
+}
+
+/*mengatur posisi dan tampilan teks di footer*/
+div#footer p{
+	color:	#f1f1f1;
+	font-size: 12pt;
+	text-align: center;
+	position: relative;
+	bottom: 11px
+}
+.table {
+	text-align: center;
+	border-collapse:  collapse;
+	margin : auto;
+	background-color:rgba(255,255,255,0.3);
+	font-weight:bold;
+}
+.table td, .table th {
+	border: 2px solid #ddd;
+	padding : 8px;
+}
+/*.table tr:nth-child(even){background-color: #B0C4DE;} /* warna untuk tabel ke 1(genap)*/
+
+.table tr:hover {background-color: #F5F5F5/*warna ketika diarahin*/;}
+
+.table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: /*#8B4513*/ #A9A9A9 /*(darkgrey)warna untuk th pada tabel*/;
+	color: darkgreen;
+}
