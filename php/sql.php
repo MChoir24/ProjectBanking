@@ -2,10 +2,10 @@
 
 function FuncPDO()
 {
-    $host = 'localhost';
-    $dbname = 'banking';
-    $username = 'root';
-    $password = '';
+    $host = 'us-cdbr-iron-east-01.cleardb.net';
+    $dbname = 'heroku_dcb24109b0b5c1c';
+    $username = 'bb31e6f5157566';
+    $password = '629b26ec';
     $dbc = new PDO("mysql:host=$host;dbname=$dbname",$username,$password); //menghubungkan ke database
     return $dbc;
 }
