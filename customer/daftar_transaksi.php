@@ -39,12 +39,12 @@ $SelfNoRek = getCol('REKENING','NO_REKENING','USERNAME',$_SESSION['user']['USERN
                 echo "<tr>
                         <td>{$value['NO_TRANSAKSI']}</td><td>{$value['TANGGAL']}</td>";
                 if ($value['jenis']==1) {
-                    echo "<td>{$value['NOMINAL']}</td><td>-</td>";
+                    echo "<td>Rp". number_format($value['NOMINAL'],2)."</td><td>-</td>";
                 }
                 else {
-                    echo "<td>-</td><td>{$value['NOMINAL']}</td>";
+                    echo "<td>-</td><td> Rp". number_format($value['NOMINAL'],2)."</td>";
                 }
-                echo "<td>{$value['SALDO']}</td></tr>";
+                echo "<td>Rp ". number_format($value['SALDO'],2)."</td></tr>";
             }
             echo "</table>";
         }

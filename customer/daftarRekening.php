@@ -47,7 +47,7 @@
                         <p>Saldo</p>
                     </div>
                     <div class=\"col\">
-                        <p>{$value['SALDO']}</p>
+                        <p>Rp ".number_format($value['SALDO'],2)."</p>
                     </div>
                 </div>";
 

@@ -88,7 +88,7 @@ $rekening = selectAll('REKENING','USERNAME',$id); //mengambil semua data yang di
 					<p>Saldo</p>
 				</div>
 				<div class="col">
-					<p><?php echo $value['SALDO']; ?></p>
+					<p>Rp <?php echo number_format($value['SALDO'],2); ?></p>
 				</div>
 			</div>
 		<?php endforeach; ?>
