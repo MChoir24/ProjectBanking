@@ -15,7 +15,7 @@ if (isset($_POST['submit'])) { //mengecek apakah sudah ditekan submit apa tidak
     if (!$errors) { //mengecek apakah ada error atau tidak
         addCustomer($_POST['username'],$_POST['password'],$_POST['nama'],$_POST['tgl_lahir'],$_POST['jenisKelamin'],$_POST['alamat'],$_POST['noTelp'],$_POST['email']); //fungsi untuk menambah data customer
         addRek($_POST['no_rek'],$_POST['saldo'],$_POST['pin'],$_POST['username']); //fungsi untuk menambah data rekenening
-        echo "success";
+        header('location: sukses.php');
     }
 } ?>
 <!DOCTYPE html>

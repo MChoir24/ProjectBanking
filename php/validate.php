@@ -17,7 +17,7 @@ function validateConfirmPassword(&$errors, $field_list, $field_name, $fieldpassw
 }
 function validateName(&$errors, $field_list, $field_name)
 {
-    $pattern = "/^[a-zA-Z'-]+$/"; // format surname (alfabet)
+    $pattern = "/^[a-z A-Z'-]+$/"; // format surname (alfabet)
     if (!preg_match($pattern, $field_list[$field_name]))
         $errors[$field_name] = '<span class="err">hanya berisi abjad</span>';
 }
