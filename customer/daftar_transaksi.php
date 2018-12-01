@@ -10,6 +10,7 @@ $SelfNoRek = getCol('REKENING','NO_REKENING','USERNAME',$_SESSION['user']['USERN
 <html lang="en">
 <head>
 	<link rel="stylesheet" type="text/css" href="../css/daftar_transaksi.css">
+    <link rel="stylesheet" href="../css/master.css">
 	<title>I BANKING</title>
 </head>
 <body>

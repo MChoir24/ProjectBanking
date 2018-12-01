@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" type="text/css" href="../css/daftar_rekening.css">
+	<link rel="stylesheet" href="../css/master.css">
 	<title>I BANKING</title>
 </head>
 <body>
